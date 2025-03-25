@@ -1,0 +1,22 @@
+.nav {
+  background-color: black;
+  position: fixed;
+  width: 30%;
+  margin: 0 auto;
+  top: 20px;
+  border-radius: 50px;
+  left: 50%;
+  z-index: 10;
+  padding: 20px 0px;
+  transform: translateX(-50%);
+}
+
+.nav ul li {
+  list-style: none;
+  transform: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.nav ul li:hover {
+  transform: scale(1.05);
+}
