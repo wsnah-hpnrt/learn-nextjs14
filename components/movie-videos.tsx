@@ -1,6 +1,6 @@
 // 여기는 videos에 관한 UI만 가질꺼임
 
-import { API_URL } from "../app/(home)/page";
+import { API_URL } from "../app/constants";
 import styles from "../styles/movie-videos.module.css";
 
 async function getVideos(id: string) {

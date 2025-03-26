@@ -1,4 +1,4 @@
-import { API_URL } from "../app/(home)/page";
+import { API_URL } from "../app/constants";
 import potato from "../styles/movie-info.module.css";
 
 // export 해서 다른곳에서 쓸꺼야
